@@ -1,0 +1,162 @@
+body{
+    font-family: sans-serif; 
+    margin: 0px; 
+}
+
+
+#header{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+    gap: 475px;
+}
+#header .logo{
+    font-size: 24px;
+    font-weight: 800;
+}
+#header .links{
+    font-size: 18px;
+    margin: 0px;
+    list-style: none;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    padding-right: 24px;
+}
+a:visited{
+    color: #e5e7eb;
+}
+
+
+#block-one{
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    gap: 56px;
+    padding: 115px 0px;
+}
+#block-one .title{
+    font-size: 48px;
+    font-weight: 800;
+    max-width: 350px;
+}
+#block-one .subtext{
+    font-size: 18px;
+    color: #e5e7eb;
+    max-width: 450px;
+}
+.img{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+.button{
+    background-color: #3882f6;
+    color: white;
+    padding:8px 32px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    margin: 16px 0px;
+}
+
+.block-two{
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.block-two img{
+    max-width: 170px;
+    max-height: 170px;
+    border-radius: 16px;
+    border: solid #3882f6 4px;
+}
+.block-two .dogcontainer{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+.block-two .text{
+    max-width: 170px;
+    text-align: center;
+    margin-top: 8px;
+    color: rgb(66, 66, 66);
+}
+.block-two .title{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+#block-three{
+    background-color: #e5e7eb;
+    padding: 100px 0px;
+}
+#block-three .quote{
+    font-weight: 300;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#block-three .author{
+    font-weight: 800;
+    font-size: 18px;
+    padding: 16px 0px;
+    padding-left: 450px;
+    display: flex;
+    justify-content: center;
+}
+
+
+#block-four{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px;
+    color: white;
+}
+.content{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:50px 100px;
+    border-radius: 8px;
+    
+}
+#block-four button{
+    background-color: #3882f6;
+    color: white;
+    padding:8px 32px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 2px solid white;
+    margin-left: 140px;
+}
+#block-four .title{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+
+#footer{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+
